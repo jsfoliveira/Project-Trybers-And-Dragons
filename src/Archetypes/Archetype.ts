@@ -1,5 +1,6 @@
 import { EnergyType } from '../Energy';
 
+// Os atributos da classe Archetype podem ser lidos, mas não podem ser alterados. Ou seja, precisa criar uma classe especializada para herdar seus atributos e instanciá-las.
 export default abstract class Archetype {
   constructor(
     private _name:string,
