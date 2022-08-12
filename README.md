@@ -1,59 +1,19 @@
-# Boas vindas ao repositório do projeto Trybers and Dragons!
+# 	:woman_technologist: Project Trybers And Dragons
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+Esse projeto contém uma série de informações sobre o que eu aprendi aqui na Trybe ao longo do curso de desenvolvimento web da Trybe. <br>Nele pude desenvolver habilidades como Programação Orientada a Objetos e SOLID
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-# Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do Manual da Pessoa Estudante da Trybe.
-
-# Entregáveis
-
-<details>
-  <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
-
-  Para entregar o seu projeto você deverá criar um *Pull Request* neste repositório.
-
-  Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-</details>
-
-<details>
-  <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
-
-  Para este projeto, você deverá aplicar os princípios da arquitetura `SOLID` e os princípios de `POO` em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos `RPG` (_Role Playing Game_).
-
-  ---
-
-  ⚠️ **Dicas Importantes** ⚠️:
-
-  - Durante a execução dos testes, serão criados arquivos `.js` no repositório do projeto:
-
-    - Ao final da execução de cada teste é rodado um script que apaga todos os arquivos `.js` do repositório (com exceção dos que já vão com o projeto);
-
-    - O script utiliza o binário `find` do linux;
-
-    - ~Em ambiente Windows, o `find` utilizado é o que vem na instalação do git (`C:/Program Files/Git/usr/bin/find.exe`).~
-
-</details>
-
-<details>
-  <summary><strong>🗓 Data de Entrega</strong></summary><br />
-  
-  * Este projeto é individual
-  * São `2` dias de projeto
-  * Data para entrega final do projeto: `17/08/2022 14:00`
-
-</details>
-
-# Orientações
-
-<details>
-  <summary><strong>🐋 Rodando no Docker vs Localmente</strong></summary><br />
-  
-  ## Com Docker
-
-  > Rode o serviço `node` com o comando `docker-compose up -d`.
+## :rocket:Começando
+Esse projeto foi proposto pelo curso de desenvolvimento web da Trybe.
+### Desenvolvimento
+ Para este projeto, foram aplicados os princípios da arquitetura `SOLID` e os princípios de `POO` em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos `RPG` (_Role Playing Game_).
+### Commits
+Os commits foram feitos de acordo com os requisitos finalizados.
+### Branch
+Todo o projeto foi feita na branch ' juliana-oliveira-project-trybers-and-dragons', isso por conta da exigência do curso.
+### Instalação
+Antes de realizar o projeto, precisei instalar as dependências usando npm install.
+## Rodando com Docker
+> Rode o serviço `node` com o comando `docker-compose up -d`.
   - Esse serviço irá inicializar um container chamado `trybers_and_dragons`.
   - A partir daqui você pode rodar o container `trybers_and_dragons` via CLI ou abri-lo no VS Code.
 
@@ -62,210 +22,20 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   > Instale as dependências [**Caso existam**] com `npm install`
   
-  ⚠ Atenção ⚠ Caso opte por utilizar o Docker, **TODOS** os comandos disponíveis no `package.json` (npm start, npm test, npm run dev, ...) devem ser executados **DENTRO** do container, ou seja, no terminal que aparece após a execução do comando `docker exec` citado acima. 
-
-  ⚠ Atenção ⚠ O **git** dentro do container não vem configurado com suas credenciais. Ou faça os commits fora do container, ou configure as suas credenciais do git dentro do container.
-
-  ⚠ Atenção ⚠ Não rode o comando npm audit fix! Ele atualiza várias dependências do projeto, e essa atualização gera conflitos com o avaliador.
-
-
-✨ **Dica:** A extensão `Remote - Containers` (que estará na seção de extensões recomendadas do VS Code) é indicada para que você possa desenvolver sua aplicação no container Docker direto no VS Code, como você faz com seus arquivos locais.
-
-<img src="images/remote-container.png" width="800px" >  
-
----
   
-  ## Sem Docker
-  
-  > Instale as dependências [**Caso existam**] com `npm install`
-  
-  ⚠ Atenção ⚠ Não rode o comando npm audit fix! Ele atualiza várias dependências do projeto, e essa atualização gera conflitos com o avaliador.
-
-  ✨ **Dica:** Para rodar o projeto desta forma, obrigatoriamente você deve ter o `node` instalado em seu computador.
-
-  ✨ **Dica:** O avaliador espera que a versão do `node` utilizada seja a 16.
-
-  <br/>
-</details>
-
-<details>
-  <summary><strong>‼️ Antes de começar a desenvolver</strong></summary><br />
-
-  1. Clone o repositório
-
-  - `git clone https://github.com/tryber/sd-019-a-project-s-and-dragons.git`.
-  - Entre na pasta do repositório que você acabou de clonar:
-    - `cd sd-019-a-project-s-and-dragons`
-
-  2. Instale as dependências
-
-  - `npm install`
-
-  3. Crie uma branch a partir da branch `main`
-
-  - Verifique se você está na branch `main`
-    - Exemplo: `git branch`
-  - Se não estiver, mude para a branch `main`
-    - Exemplo: `git checkout main`
-  - Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
-    - Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    - Exemplo: `git checkout -b joaozinho-sd-019-a-project-s-and-dragons`
-
-  4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-  - Verifique que as mudanças ainda não estão no _stage_
-    - Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
-  - Adicione o novo arquivo ao _stage_ do Git
-      - Exemplo:
-        - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-  - Faça o `commit` inicial
-      - Exemplo:
-        - `git commit -m 'iniciando o projeto x'` (fazendo o primeiro commit)
-        - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-  5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-  - Usando o exemplo anterior: `git push -u origin joaozinho-sd-019-a-project-s-and-dragons`
-
-  6. Crie um novo `Pull Request` _(PR)_
-
-  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-019-a-project-s-and-dragons/pulls);
-  - Clique no botão verde _"New pull request"_;
-  - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**;
-  - Clique no botão verde _"Create pull request"_;
-  - Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_;
-  - **Não se preocupe em preencher mais nada por enquanto!**;
-  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-019-a-project-s-and-dragons/pulls) e confira que o seu _Pull Request_ está criado.
-
-</details>
-
-<details>
-  <summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
-
-  - Faça `commits` das alterações que você fizer no código regularmente
-
-  - Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-  - Os comandos que você utilizará com mais frequência são:
-    1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-    2. `git add` _(para adicionar arquivos ao stage do Git)_
-    3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-    4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-    5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
-</details>
-
-<details>
-  <summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
-
-  Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-  - Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-    - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-    - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-019-a`.
-
-  Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-</details>
-
-<details>
-  <summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
-
-  Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
-</details>
-
-<details>
-  <summary><strong>🍀 Dicas da sorte</strong></summary><br />
-
-  **⚠️ Leia as informações abaixo atentamente e siga à risca o que for pedido. ⚠️**
-
-  **👀 Observações importantes:**
-
-  - O projeto deve ser desenvolvido na ordem dos requisitos (do 1 ao 13);
-
-  - As importações e exportações dos arquivos devem ser feitas exatamente como estão sendo solicitadas e os nomes dos arquivos/diretórios também devem seguir à risca o que é pedido no `README.md`;
-
-  - Sempre que encontrar o símbolo ⚠️ pare e leia com muita atenção o que é pedido;
-
-  - Atente ao vocabulário usado no projeto, ele é super importante para te ajudar na hora de suas pesquisas. Qualquer dúvida procure a pessoa instrutora de sua turma no `Slack` ou nas `mentorias`;
-
-  - Preste atenção às convenções, isso tem ligação direta com as boas práticas de código e de comunicação entre equipes;
-
-  - Ao longo do projeto algumas refatorações serão necessárias para que ele funcione como é esperado;
-
-  - Dentro do diretório `src/Battle` existe um arquivo `Battle.ts` com uma classe abstrata de batalha criada. Os arquivos deste diretório estão comentados e podem ser usados de exemplo para a construção do projeto. Durante a execução do projeto, no **requisito 6 - Crie a interface `Fighter`**, será pedido para você descomentar os arquivos. Só descomente quando chegar lá, senão haverá erro de lint;
-
-  - Preste atenção ao padrão do projeto, onde cada diretório possui um arquivo `index.ts` exportando as informações necessárias, tomando cuidado para não ter problemas na execução dos testes.
-
-</details>
-
-<details>
-  <summary><strong>🎛 Linter</strong></summary><br />
-
-  Usaremos o [ESLint](https://eslint.org/) para fazer a análise estática do seu código.
-
-  Este projeto já vem com as dependências relacionadas ao _linter_ configuradas no arquivos `package.json`.
-
-  Para poder rodar os `ESLint` em um projeto, basta executar o comando `npm install` dentro do projeto e depois `npm run lint`. Se a análise do `ESLint` encontrar problemas no seu código, tais problemas serão mostrados no seu terminal. Se não houver problema no seu código, nada será impresso no seu terminal.
-
-  ⚠ PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO! ⚠
-
-  Você também pode instalar o plugin do `ESLint` no `VSCode`: bastar ir em _extensions_ e baixar o [plugin `ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
-</details>
-
-
-<details>
-  <summary><strong>🛠 Testes</strong></summary><br />
-
-  Para executar os testes localmente, digite no terminal o comando `npm test`.
-
-  ### Dica: desativando testes
-
-  Especialmente no início, quando a maioria dos testes está falhando, a saída após executar os testes é bastante poluída. Você pode desabilitar temporariamente um teste utilizando a função `skip` junto à função `describe`. Como o nome indica, esta função "pula" um teste:
-
-  ```typescript
-  describe.skip('...', () => {})
-  ```
-
-  Uma estratégia é pular todos os testes no início e ir implementando um teste de cada vez, removendo dele a função `skip`.
-
-  ⚠️ Lembre-se de não entregar o projeto com nenhum teste ignorado. **Testes ignorados serão tratados como testes falhando**. ⚠️
-
-  ⚠️ **Não apague, em hipótese alguma, qualquer teste ou arquivo deste repositório**. ⚠️
-
-</details>
-
-<details>
-  <summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary><br />
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. 
-**Leva menos de 3 minutos!**
-
-[FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-⚠️ **O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?**
-
-</details>
-
-<details>
-  <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
-
-  Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
-
-# Requisitos
-
-<details>
-  <summary><strong>🐉 Contextualizando 🐲</strong></summary><br />
-
-  No universo de Trybers and Dragons - T&D, quase todos os seres que andam por essas terras pertencem a uma **raça** definida.
+### Testes
+Os testes usando foram ESLint e Cypress, através dos **comandos**: <br>
+* npm run cypress:open <br>
+* npm run lint:styles
+### Autores
+Esse foi um projeto individual,que desenvolvido por Juliana Oliveira.
+### Ferramentas usadas
+Foi usado Visual Studio Code, além do Trello que auxiliou na organização das tarefas.
+### Framework usado
+Nenhum.
+
+###  Contextualizando o projeto
+No universo de Trybers and Dragons - T&D, quase todos os seres que andam por essas terras pertencem a uma **raça** definida.
 
   As diversas raças (como, por exemplo, Élfica, Orc ou Anã) definem as características das personagens dentro do jogo desde a sua criação, como os seus pontos de vida e a sua destreza. No entanto, existem seres bestiais denominados **monstros** que não possuem uma raça específica, mas podem lutar.
 
@@ -275,11 +45,15 @@ Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência 
 
   Agora, cabe a você, nobre ~~dev~~, explorar essas terras e cumprir as quests que surgirão ao longo da sua incrível ~~jornada~~ leitura do README.
 
-  **_Now, follow ~~the blind~~ the dungeon master!_**
+  ---
 
-</details>
-
-### 1 - Crie a classe `Race`
+## :footprints:Requisitos
+### Metodologia usada
+No trabalho do desenvolvimento de software a gente sempre tem prazos, muitas vezes os prazos são apertados.<br>
+Por outro lado, eu não quero criar algo que não entendo perfeitamente, como também fazer códigos rápidos pode levar a erros que podem demorar muito pra corrigir.<br>
+Por isso, usei e sempre uso o método Baby Steps, que é uma estratégia de abordar o desafio passo à passo, defensivamente.<br>
+Baby steps é um termo em inglês que quer dizer passos de bebê. Refere-se a fazer as coisas, quaisquer que sejam, devagar, com calma, passo a passo.
+#### :footprints:Requisito 1 - Crie a classe `Race`
 
 <details>
   <summary><strong>➕ Detalhes </strong></summary>
@@ -339,7 +113,7 @@ Para que você tenha sucesso nesta *quest*, é importante saber que:
 
 ---
 
-### 2 - Crie classes que herdam de `Race`
+#### :footprints:Requisito 2 - Crie classes que herdam de `Race`
 
 <details>
   <summary><strong>➕ Detalhes </strong></summary>
@@ -402,7 +176,7 @@ Antes de prosseguir com a missão, é muito importante saber que:
 
 ---
 
-### 3 - Crie a interface `Energy`
+#### :footprints:Requisito 3 - Crie a interface `Energy`
 
 <details>
   <summary><strong>➕ Detalhes </strong></summary>
@@ -447,7 +221,7 @@ Sua próxima missão é tornar possível o uso destes dois tipos de energia:  *"
 
 ---
 
-### 4 - Crie a classe `Archetype`
+#### :footprints:Requisito 4 - Crie a classe `Archetype`
 
 <details>
   <summary><strong>➕ Detalhes </strong></summary>
@@ -503,7 +277,7 @@ Para que você tenha sucesso nesta *quest*, é importante saber que:
 
 ---
 
-### 5 - Crie classes que herdam de `Archetype`
+#### :footprints:Requisito 5 - Crie classes que herdam de `Archetype`
 
 <details>
   <summary><strong>➕ Detalhes </strong></summary>
@@ -563,7 +337,7 @@ Para isto, atenção às instruções a seguir:
 
 ---
 
-### 6 - Crie a interface `Fighter`
+#### :footprints:Requisito 6 - Crie a interface `Fighter`
 
 <details>
   <summary><strong>➕ Detalhes </strong></summary>
@@ -618,7 +392,7 @@ Para fixar bem esse conceito, preparamos para você a missão especial de criar 
 
 ---
 
-### 7 - Crie a classe `Character`
+#### :footprints:Requisito 7 - Crie a classe `Character`
 
 <details>
   <summary><strong>➕ Detalhes </strong></summary>
@@ -709,7 +483,7 @@ As dicas para completar essa *quest* são:
 
 ---
 
-### 8 - Crie a interface `SimpleFighter`
+#### :footprints:Requisito 8 - Crie a interface `SimpleFighter`
 
 <details>
   <summary><strong>➕ Detalhes </strong></summary>
@@ -750,7 +524,7 @@ As dicas para completar essa *quest* são:
 
 ---
 
-### 9 - Crie a classe `Monster`
+#### :footprints:Requisito 9 - Crie a classe `Monster`
 
 <details>
   <summary><strong>➕ Detalhes </strong></summary>
@@ -801,188 +575,3 @@ O que você deve saber para seguir em frente:
   - `Monster` pode atacar um `Character`, e o `Character` receberá dano;
   - `Character` pode atacar um `Monster`, e o `Monster` receberá de dano;
 </details>
-
----
-
-### 10 - Crie a classe `PVP`
-
-<details>
-  <summary><strong>➕ Detalhes </strong></summary>
-
-A ideia do mundo de T&D ser completamente pacífico provavelmente já deve ter desaparecido da sua mente depois das suas últimas *quests*. 
-Nesse mundo, existem lutas, muitas delas inclusive épicas, denominadas `Battles` (batalhas). Sua representação geral/abstrata já foi fornecida anteriormente, entretanto, existem tipos específicos de batalhas. Uma dessas batalhas chamamos de `PVP`, batalhas entre personagens (ou *player versus player*), que só podem acontecer entre personagens lutadores (`Fighters`). 🧙‍♀️ ⚔️ 🧙‍♂️
-
-Sua *quest* agora é justamente **criar a classe PVP**, então, você que lute ! 🗡️😂
-Brincadeira! Estamos aqui para te ajudar e por isso trazemos abaixo algumas dicas preciosas para garantir a sua vitória neste requisito:
-
-- O arquivo deve ser criado no diretório `src/Battle/` e se chamar `PVP.ts`;
-- A classe `PVP` deve herdar de `Battle`;
-- A classe `Battle` já esta criada, dê uma espiada nela; 🧐
-- Na criação de uma instância de `PVP` é esperado que em seu construtor sejam recebidos dois `Characters` lutadores, ambos inicializados lá;
-- Não se esqueça de fazer a sobrescrita (`override`) do(s) método(s) necessário(s). ✨✨
-
-✨ Dica de mestre: ✨
-- Use um dos _players_ para ser parâmetro do `super` na inicialização e use o método `fight` do super para dar o veredito da batalha, ou seja, se `super.fight()` retornar 1 o _player_ quer foi usado como parâmetro do `super` na inicialização ganhou, e se retornar -1 a vitória foi do _player_ que não foi o parâmetro do `super`; 
-
-- Aqui ~~podemos~~ devemos sobrescrever o método `fight`;
-  - No método `fight` sobrescrito, implemente uma lógica de ataque entre personagens lutadores da classe;
-  - As personagens `devem batalhar` até uma das duas ser `derrotada`, em outras palavras, a batalha só deverá terminar, quando alguma personagem ter seus pontos de vida (`lifePoints`) igual a `-1`;
-- Se necessário, refatore o que já foi feito com as interfaces `Fighter` e `SimpleFighter` para se adequarem melhor à sua nova implementação de batalha;
-- Não esqueça de descomentar os trechos de código dos arquivos do diretório `Battle` como citado nas "Dica de mestre" do requisito 6 - Crie a interface `Fighter`.
-
-<br>
-
-> ⚠️ **Atenção**:
-> - Para que os testes funcionem corretamente, a classe `PVP` deve ser exportada de forma padrão (com `export default`);
-> - Novamente, dentro de `src/Battle/index.ts`, a classe (`PVP`) deve ser importada, porém esta deve ser exportada de forma normal (`export { PVP }`), como feito em requisitos anteriores.
-
-<br>
-</details>
-
-<details close>
-  <summary>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a classe PVP:
-  - A classe `PVP` existe e pode ser criada uma nova instância, passando dois `Characters` lutadores;
-  - A classe `PVP` pode ser utilizada onde a classe `Battle` é esperada e uma personagem que chamou várias vezes o levelUp e possui melhores atributos tem maiores chances de vencer;
-  - A classe `PVP` pode receber tanto dois `Characters` quanto duas instâncias de uma implementação diferente de `Fighter`;
-</details>
-
----
-
-## Requisitos Bônus
-
-### 11 - Criar a classe `PVE`
-
-<details>
-  <summary><strong>➕ Detalhes </strong></summary>
-
-Nem todas as batalhas são entre personagens lutadoras (`Character`), afinal, há perigos à solta que espreitam ao escurecer, em densas florestas ou em calabouços profundos.
-
-Monstros representam alguns destes perigos, assim, temos as batalhas do tipo `PVE`(*player versus environment*), em que personagens (sempre do tipo `Fighter`) podem lutar contra um ou mais monstros assustadores (`SimpleFighter`). Parece interessante, não é? Tornar isso possível é a sua próxima *quest*! 🧙‍♀️ ⚔️ 👾👹👻
-
-Antes de prosseguir para essa nova batalha, leia atentamente as dicas abaixo !!! Só assim obteremos sucesso e prosperidade:
-
-- O arquivo deve ser criado no diretório `src/Battle/` e se chamar `PVE.ts`;
-- Lembre-se a classe `Battle` já esta criada;
-- Na criação de uma instância de `PVE.ts` é esperado que em seu construtor seja recebido uma pessoa personagem lutadora (`Character Fighter`) e um *array* com pelo menos um monstro (`Monster`), ambos inicializados no **construtor**;
-  - Como estamos falando de uma batalha *player versus environment*, este *array* de monstros também aceita instâncias de pessoas personagens lutadoras sendo elas simples ou não; (`Fighter`, `SimpleFighter`)
-- Não se esqueça de fazer a sobrescrita (`override`) do(s) método(s) necessário(s);
-  - Como na "Dica de mestre" do requisito anterior (`PVP`), não esqueça de implementar uma lógica de luta para este requisito também;
-  - Lembre-se, aqui a luta é de uma personagem contra apenas um oponete ou uma legião deles. Logo, para a batalha ser finalizada, a personagem principal, ou seus oponentes, deverão ter perdido os seus respectivos pontos de vida (`lifePoints`).
-
-<br>
-
-> ⚠️ **Atenção**:
-> - Para que os testes funcionem corretamente, a classe `PVE` deve ser exportada de forma padrão (com `export default`);
-> - Novamente dentro de `src/Battle/index.ts` a classe (`PVE`) deve ser importada, porém desta vez de forma normal (`export { PVP }`), como feito em requisitos anteriores.
-
-<br>
-</details>
-
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a classe PVE:
-  - A classe `PVE` existe e se pode ser criada uma nova instância, passando um `Character` e um array com um `Monster`;
-  - A classe `PVE` pode ser utilizada onde a classe `Battle` é esperada. Além disso, uma personagem (`Character`) que chamou várias vezes o método `levelUp` e possui melhores atributos tem maiores chances de vencer uma luta contra somente um `Monster`, enquanto uma personagem com atributos menores perde uma luta contra diversos `Monsters`;
-  - A classe `PVE` pode receber tanto `Character` e um array com um `Monster` quanto implementações diferentes de `Fighter` e `SimpleFighter` que não são `Character` nem `Monster`;
-</details>
-
----
-
-### 12 - Crie a classe `Dragon`
-
-<details>
-  <summary><strong>➕ Detalhes </strong></summary>
-
-Seria muito estranho se esse mundo se chamasse Trybers and Dragons e não existissem `Dragons`, não é mesmo?
-Estes seres magníficos são representados como monstros aqui, mas com a característica especial de possuírem elevados valores de pontos de vida.
-
-Nesta *quest*, você deve **criar a classe `Dragon`**, cuidando para garantir que:
-
-- O arquivo deve ser criado na raiz de `src/` e se chamar `Dragon.ts`;
-- A classe `Dragon` deve herdar de `Monster`;
-- Como citado acima, um Dragão tem elevados valores de pontos de vida, então em seu construtor defina o valor de `_lifePoints` para algo como 999; :dragon_face::dragon_face:
-
-:dragon_face: Dica de mestre: :dragon_face:
-- Aqui é interessante voltar no conteúdo do course sobre **Herança e Interfaces** e relembrar um pouco de **Atributos protegidos**;
-
-<br>
-
-> ⚠️ **Atenção**:
-> - Para que os testes funcionem corretamente, a classe `Dragon` deve ser exportada de forma padrão ( com `export default`).
-
-<br>
-</details>
-
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a classe Dragon:
-  - A classe `Dragon` existe;
-  - A classe `Dragon` herda de `Monster`;
-  - `Dragon` deve ter 999 no valor do atributo `lifePoints`;
-</details>
-
----
-
-### 13 - Crie objetos no arquivo `index`
-
-<details>
-  <summary><strong>➕ Detalhes </strong></summary>
-
-Você já modelou todo o mundo de T&D, maravilha!
-
-Agora repare que, por mais que a gente saiba o que são `Monster`, `Character`, `Dragon`, `PVE`, etc, nenhum desses foi visto em ação. Então a sua última *quest* para completar essa aventura é dar vida às suas personagens e criar algumas instâncias das classes criadas anteriormente. 🪄
-
-Algumas dicas se fazem necessárias para completar sua última missão no mundo de T&D. Elas são:
-
-- O arquivo deve ser criado na raiz de `src/` e se chamar `index.ts`;
-- ⚠️ Preste bastante atenção nos nomes das variáveis/métodos e nas exportações pedidas deste último requisito; :wink:.
-- Crie `3` objetos do tipo `Character`:
-  - As variáveis devem-se chamar `player1`, `player2` e `player3`;
-  - Execute algumas vezes o método `levelUp` do `player1`;
-  - Ao final do arquivo `index.ts` exporte `player1`, `player2` e `player3`.
-- Crie `2` objetos do tipo `Monster`:
-  - As variáveis devem se chamar `monster1` e `monster2`;
-  - `monster1` deve ser um `Monster` e `monster2` deve ser um `Dragon`;
-  - Ao final do arquivo `index.ts` exporte `monster1` e `monster2`.
-- Crie um objeto do tipo `PVP`:
-  - A variável deve se chamar `pvp`;
-  - Como parâmetro do construtor passe `player2` e `player3`;
-  - Ao final do arquivo `index.ts` exporte `pvp`.
-  - **NÃO execute o método `pvp.fight`**;
-- Crie um objeto do tipo `PVE`:
-  - A variável deve se chamar `pve`;
-  - Como parâmetro do construtor passe `player1` e um array contendo `monster1` e `monster2`;
-  - Ao final do arquivo `index.ts` exporte `pve`.
-  - **NÃO execute o método `pve.fight`**;
-- Crie uma função chamada `runBattles`:
-  - A função recebe por parâmetro um *array* de batalhas (`battles`) e este *array* é do tipo `Battle`; ✨✨
-  - Dentro da função, crie uma repetição percorrendo este array e chame o método `fight`;
-  - Ao final do arquivo `index.ts` exporte `runBattles`.
-
-✨ Última dica de mestre: ✨
-- Lembre-se `Battle` não pode ser instanciada, pois é uma classe abstrata;
-
-<br>
-
-> ⚠️ **Atenção**:
-> - Para que os testes funcionem corretamente, os objetos/métodos criados em `src/index.ts` devem ser exportados como explicado no requisito;
-
-<br>
-</details>
-
-<details close>
-  <summary><strong>🔎 O que será verificado</strong></summary>
-
-  > :dragon_face: Para a criação de objetos no arquivo index:
-  - Existem 3 objetos do tipo `Character` no arquivo `index`, exportados como `player1`, `player2` e `player3` e o método `levelUp` foi chamado algumas vezes em `player1`
-  - Existem 2 objetos do tipo `Monster` no arquivo `index`, exportados como `monster1`, `monster2`, sendo que o objeto `monster2` é um `Dragon`;
-  - Existe um objeto do tipo `PVP` (com os `Characters` `player2` e `player3`), exportados no arquivo index como `pvp` e nele *NÃO* foi executado o método `pvp.fight`;
-  - Existe um objeto do tipo `PVE` (com o `Character` `player1` e com os `Monsters` `monster1` e `monster2`), exportado no arquivo `index` como `pve` e nele *NÃO* foi executado o método `pve.fight`;
-  - Existe uma função chamada `runBattles`, que recebe um `array de Battles` e chama em seu interior o método `battle.fight`;
-</details>
-
----
